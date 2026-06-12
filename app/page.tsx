@@ -7,31 +7,8 @@ export default function Page() {
       {/* Animated spiral background */}
       <SpiralBackground />
 
-      {/* Centered content */}
-      <div className="relative z-10 flex flex-col items-center gap-6">
-        {/* Creepy title */}
-        <h1
-          className="text-foreground font-sans text-sm tracking-[0.4em] uppercase opacity-60"
-          style={{
-            textShadow: "0 0 20px rgba(180,0,0,0.8), 0 0 40px rgba(100,0,120,0.5)",
-            letterSpacing: "0.45em",
-          }}
-        >
-          ✦ do not look into its eyes ✦
-        </h1>
-
-        {/* The cat */}
+      <div className="relative z-10">
         <BlackCat />
-
-        {/* Bottom tag */}
-        <p
-          className="text-foreground font-sans text-xs tracking-widest uppercase opacity-40"
-          style={{
-            textShadow: "0 0 12px rgba(180,0,0,0.6)",
-          }}
-        >
-          &hellip; it stares back &hellip;
-        </p>
       </div>
 
       {/* Global keyframe animations */}

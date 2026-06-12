@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'odile',
-  description: 'odile',
+  description: 'odile ',
   generator: 'v0.app',
   icons: {
     icon: '/black-cat.png',
